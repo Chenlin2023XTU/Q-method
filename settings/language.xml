@@ -28,9 +28,7 @@
         <!-- welcome screen (leave blank to skip screen) -->
         <item id="welcomeHead">欢迎</item>
         <item id="welcomeText">您好！
-    为了了解公务员的拖延行为，设计了本项调查，希望能得到各位的支持。
-    本项调查不记名，各题目答案没有正确错误之分，您只需凭着读过题后的第一印象填写即可。同时，您所回答的内容都将被输入计算机进行统计处理，绝不会涉及任何人的个人情况。因此，您不必有任何顾虑。
-    另外，在回答的过程中，如果有漏选的情况，您提供给我们的数据的价值将会大大降低，因此，请在回答完毕后再一次确认是否有漏选的情况。谢谢！</item>
+    为了了解公务员的拖延行为，设计了本项调查，希望能得到各位的支持。</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
         <item id="loginHead">存取码</item>
