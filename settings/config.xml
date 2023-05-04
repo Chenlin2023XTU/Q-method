@@ -3,7 +3,7 @@
    <config version="1.1.1" htmlParse="false">
 
      <!-- title of the study -->
-     <item id="studyTitle">测试稿</item>
+     <item id="studyTitle">基层公务员拖延行为动机研究</item>
 
      <!-- text-align property(left|right) -->
      <item id="textAlign">left</item>
@@ -42,25 +42,23 @@
      <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
      <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
      <item id="form">
-        <label>你的年龄</label>
-        <note>请输入数字</note>
-        <input type="text" required="true" maxlength="1000" ></input>
+        <label>您的性别</label>
+        <input type="select" required="false">A.男 ;B.女</input>
 
-        <label>你的政治面貌是：A中共党员；B群众；C其他党派人士（请说明）</label>
-        <note>请输入选项号</note>
-        <input type="text" required="false" maxlength="100000" ></input>
+        <label>您的年龄</label>
+        <input type="select" required="false">A.20及以下; B.21-30; C.31-40 ;D.41及以上</input>
 
-        <label>你的工作年限</label>
-        <note>请输入具体数字</note>
-        <input type="text" required="true" maxlength="100000" ></input>
+        <label>您的学历水平</label>
+        <input type="select" required="false">A.大专及以下; B.大学本科; C.研究生及以上</input>
 
-        <label>您的性别是：A男 B 女</label>
-        <note>输入选项</note>
-        <input type="text" required="true" maxlength="100000" ></input>
+        <label>您的职位类别 </label>
+        <input type="select" required="false">A.综合管理类; B.专业技术类; C.行政执法类; D.审判机关或检察机关职位 ;E.其他职位类别</input>
 
-        <label>您的职务是</label>
-        <note>输入具体职务</note>
-        <input type="text" required="true" maxlength="100000" ></input>
+        <label>您的行政级别</label>
+        <input type="select" required="false">A.办事员或科员; B.副科级; C.科级; D.副处级; E.处级及以上</input>
+
+        <label>您的工作年限</label>
+        <input type="select" required="false">A.2年及以下; B.3—5年; C.6—10年; D.11年及以上</input>
 
      </item>
 
