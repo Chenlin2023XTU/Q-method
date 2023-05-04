@@ -534,7 +534,7 @@ body {
   margin-right: 5px;
   font-size: 85%;
   
-  
+  display: none;
 }
 
 /* custom help button css - override bootstrap settings
